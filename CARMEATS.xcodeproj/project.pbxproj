@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64C1AE4717780BE9002C7BE3 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C1AE4617780BE9002C7BE3 /* Event.m */; };
+		64C1AE4817780BE9002C7BE3 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C1AE4617780BE9002C7BE3 /* Event.m */; };
+		64C1AE4B17780C0F002C7BE3 /* EventsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C1AE4A17780C0F002C7BE3 /* EventsTableViewController.m */; };
+		64C1AE4C17780C0F002C7BE3 /* EventsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C1AE4A17780C0F002C7BE3 /* EventsTableViewController.m */; };
+		64C1AE57177815B5002C7BE3 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C1AE56177815B5002C7BE3 /* MapViewController.m */; };
+		64C1AE58177815B5002C7BE3 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C1AE56177815B5002C7BE3 /* MapViewController.m */; };
+		64CCA96717780B2900E2A7A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CCA96617780B2900E2A7A2 /* Foundation.framework */; };
+		64CCA96917780B2900E2A7A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CCA96817780B2900E2A7A2 /* CoreGraphics.framework */; };
+		64CCA96B17780B2900E2A7A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CCA96A17780B2900E2A7A2 /* UIKit.framework */; };
+		64CCA97117780B2900E2A7A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64CCA96F17780B2900E2A7A2 /* InfoPlist.strings */; };
+		64CCA97317780B2900E2A7A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CCA97217780B2900E2A7A2 /* main.m */; };
+		64CCA97717780B2900E2A7A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CCA97617780B2900E2A7A2 /* AppDelegate.m */; };
+		64CCA97A17780B2900E2A7A2 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64CCA97817780B2900E2A7A2 /* Main_iPhone.storyboard */; };
+		64CCA97D17780B2900E2A7A2 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64CCA97B17780B2900E2A7A2 /* Main_iPad.storyboard */; };
+		64CCA98017780B2900E2A7A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CCA97F17780B2900E2A7A2 /* ViewController.m */; };
+		64CCA98217780B2900E2A7A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CCA98117780B2900E2A7A2 /* Images.xcassets */; };
+		64CCA98917780B2900E2A7A2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CCA98817780B2900E2A7A2 /* XCTest.framework */; };
+		64CCA98A17780B2900E2A7A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CCA96617780B2900E2A7A2 /* Foundation.framework */; };
+		64CCA98B17780B2900E2A7A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CCA96A17780B2900E2A7A2 /* UIKit.framework */; };
+		64CCA99317780B2900E2A7A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64CCA99117780B2900E2A7A2 /* InfoPlist.strings */; };
+		64CCA99517780B2900E2A7A2 /* CARMEATSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CCA99417780B2900E2A7A2 /* CARMEATSTests.m */; };
+		972B9C737D6E4628A1F42E15 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 189F2183E7944D06A01FF732 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64CCA98C17780B2900E2A7A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64CCA95B17780B2900E2A7A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64CCA96217780B2900E2A7A2;
+			remoteInfo = CARMEATS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10FC7E8A01F24678B7874120 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		189F2183E7944D06A01FF732 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C1AE4517780BE9002C7BE3 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		64C1AE4617780BE9002C7BE3 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		64C1AE4917780C0F002C7BE3 /* EventsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsTableViewController.h; sourceTree = "<group>"; };
+		64C1AE4A17780C0F002C7BE3 /* EventsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsTableViewController.m; sourceTree = "<group>"; };
+		64C1AE55177815B5002C7BE3 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		64C1AE56177815B5002C7BE3 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		64CCA96317780B2900E2A7A2 /* CARMEATS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CARMEATS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64CCA96617780B2900E2A7A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64CCA96817780B2900E2A7A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64CCA96A17780B2900E2A7A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64CCA96E17780B2900E2A7A2 /* CARMEATS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CARMEATS-Info.plist"; sourceTree = "<group>"; };
+		64CCA97017780B2900E2A7A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64CCA97217780B2900E2A7A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64CCA97417780B2900E2A7A2 /* CARMEATS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CARMEATS-Prefix.pch"; sourceTree = "<group>"; };
+		64CCA97517780B2900E2A7A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64CCA97617780B2900E2A7A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64CCA97917780B2900E2A7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		64CCA97C17780B2900E2A7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		64CCA97E17780B2900E2A7A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		64CCA97F17780B2900E2A7A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64CCA98117780B2900E2A7A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		64CCA98717780B2900E2A7A2 /* CARMEATSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CARMEATSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64CCA98817780B2900E2A7A2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		64CCA99017780B2900E2A7A2 /* CARMEATSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CARMEATSTests-Info.plist"; sourceTree = "<group>"; };
+		64CCA99217780B2900E2A7A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64CCA99417780B2900E2A7A2 /* CARMEATSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CARMEATSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64CCA96017780B2900E2A7A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CCA96917780B2900E2A7A2 /* CoreGraphics.framework in Frameworks */,
+				64CCA96B17780B2900E2A7A2 /* UIKit.framework in Frameworks */,
+				64CCA96717780B2900E2A7A2 /* Foundation.framework in Frameworks */,
+				972B9C737D6E4628A1F42E15 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64CCA98417780B2900E2A7A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CCA98917780B2900E2A7A2 /* XCTest.framework in Frameworks */,
+				64CCA98B17780B2900E2A7A2 /* UIKit.framework in Frameworks */,
+				64CCA98A17780B2900E2A7A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64C1AE5917795423002C7BE3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				64C1AE55177815B5002C7BE3 /* MapViewController.h */,
+				64C1AE56177815B5002C7BE3 /* MapViewController.m */,
+				64CCA97E17780B2900E2A7A2 /* ViewController.h */,
+				64CCA97F17780B2900E2A7A2 /* ViewController.m */,
+				64C1AE4917780C0F002C7BE3 /* EventsTableViewController.h */,
+				64C1AE4A17780C0F002C7BE3 /* EventsTableViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		64C1AE5A17795439002C7BE3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				64C1AE4517780BE9002C7BE3 /* Event.h */,
+				64C1AE4617780BE9002C7BE3 /* Event.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		64CCA95A17780B2900E2A7A2 = {
+			isa = PBXGroup;
+			children = (
+				64CCA96C17780B2900E2A7A2 /* CARMEATS */,
+				64CCA98E17780B2900E2A7A2 /* CARMEATSTests */,
+				64CCA96517780B2900E2A7A2 /* Frameworks */,
+				64CCA96417780B2900E2A7A2 /* Products */,
+				10FC7E8A01F24678B7874120 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		64CCA96417780B2900E2A7A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64CCA96317780B2900E2A7A2 /* CARMEATS.app */,
+				64CCA98717780B2900E2A7A2 /* CARMEATSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64CCA96517780B2900E2A7A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64CCA96617780B2900E2A7A2 /* Foundation.framework */,
+				64CCA96817780B2900E2A7A2 /* CoreGraphics.framework */,
+				64CCA96A17780B2900E2A7A2 /* UIKit.framework */,
+				64CCA98817780B2900E2A7A2 /* XCTest.framework */,
+				189F2183E7944D06A01FF732 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64CCA96C17780B2900E2A7A2 /* CARMEATS */ = {
+			isa = PBXGroup;
+			children = (
+				64CCA97517780B2900E2A7A2 /* AppDelegate.h */,
+				64CCA97617780B2900E2A7A2 /* AppDelegate.m */,
+				64C1AE5A17795439002C7BE3 /* Models */,
+				64C1AE5917795423002C7BE3 /* ViewControllers */,
+				64CCA97817780B2900E2A7A2 /* Main_iPhone.storyboard */,
+				64CCA97B17780B2900E2A7A2 /* Main_iPad.storyboard */,
+				64CCA98117780B2900E2A7A2 /* Images.xcassets */,
+				64CCA96D17780B2900E2A7A2 /* Supporting Files */,
+			);
+			path = CARMEATS;
+			sourceTree = "<group>";
+		};
+		64CCA96D17780B2900E2A7A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64CCA96E17780B2900E2A7A2 /* CARMEATS-Info.plist */,
+				64CCA96F17780B2900E2A7A2 /* InfoPlist.strings */,
+				64CCA97217780B2900E2A7A2 /* main.m */,
+				64CCA97417780B2900E2A7A2 /* CARMEATS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64CCA98E17780B2900E2A7A2 /* CARMEATSTests */ = {
+			isa = PBXGroup;
+			children = (
+				64CCA99417780B2900E2A7A2 /* CARMEATSTests.m */,
+				64CCA98F17780B2900E2A7A2 /* Supporting Files */,
+			);
+			path = CARMEATSTests;
+			sourceTree = "<group>";
+		};
+		64CCA98F17780B2900E2A7A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64CCA99017780B2900E2A7A2 /* CARMEATSTests-Info.plist */,
+				64CCA99117780B2900E2A7A2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64CCA96217780B2900E2A7A2 /* CARMEATS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64CCA99817780B2900E2A7A2 /* Build configuration list for PBXNativeTarget "CARMEATS" */;
+			buildPhases = (
+				BA873DF5C5DD4E0E996379A5 /* Check Pods Manifest.lock */,
+				64CCA95F17780B2900E2A7A2 /* Sources */,
+				64CCA96017780B2900E2A7A2 /* Frameworks */,
+				64CCA96117780B2900E2A7A2 /* Resources */,
+				650409BA1F8B4EB69E567114 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CARMEATS;
+			productName = CARMEATS;
+			productReference = 64CCA96317780B2900E2A7A2 /* CARMEATS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64CCA98617780B2900E2A7A2 /* CARMEATSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64CCA99B17780B2900E2A7A2 /* Build configuration list for PBXNativeTarget "CARMEATSTests" */;
+			buildPhases = (
+				64CCA98317780B2900E2A7A2 /* Sources */,
+				64CCA98417780B2900E2A7A2 /* Frameworks */,
+				64CCA98517780B2900E2A7A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64CCA98D17780B2900E2A7A2 /* PBXTargetDependency */,
+			);
+			name = CARMEATSTests;
+			productName = CARMEATSTests;
+			productReference = 64CCA98717780B2900E2A7A2 /* CARMEATSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64CCA95B17780B2900E2A7A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Eric Raio";
+				TargetAttributes = {
+					64CCA98617780B2900E2A7A2 = {
+						TestTargetID = 64CCA96217780B2900E2A7A2;
+					};
+				};
+			};
+			buildConfigurationList = 64CCA95E17780B2900E2A7A2 /* Build configuration list for PBXProject "CARMEATS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64CCA95A17780B2900E2A7A2;
+			productRefGroup = 64CCA96417780B2900E2A7A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64CCA96217780B2900E2A7A2 /* CARMEATS */,
+				64CCA98617780B2900E2A7A2 /* CARMEATSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64CCA96117780B2900E2A7A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CCA97D17780B2900E2A7A2 /* Main_iPad.storyboard in Resources */,
+				64CCA98217780B2900E2A7A2 /* Images.xcassets in Resources */,
+				64CCA97A17780B2900E2A7A2 /* Main_iPhone.storyboard in Resources */,
+				64CCA97117780B2900E2A7A2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64CCA98517780B2900E2A7A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CCA99317780B2900E2A7A2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		650409BA1F8B4EB69E567114 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		BA873DF5C5DD4E0E996379A5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64CCA95F17780B2900E2A7A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C1AE4717780BE9002C7BE3 /* Event.m in Sources */,
+				64CCA98017780B2900E2A7A2 /* ViewController.m in Sources */,
+				64CCA97717780B2900E2A7A2 /* AppDelegate.m in Sources */,
+				64C1AE57177815B5002C7BE3 /* MapViewController.m in Sources */,
+				64C1AE4B17780C0F002C7BE3 /* EventsTableViewController.m in Sources */,
+				64CCA97317780B2900E2A7A2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64CCA98317780B2900E2A7A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C1AE4817780BE9002C7BE3 /* Event.m in Sources */,
+				64C1AE4C17780C0F002C7BE3 /* EventsTableViewController.m in Sources */,
+				64CCA99517780B2900E2A7A2 /* CARMEATSTests.m in Sources */,
+				64C1AE58177815B5002C7BE3 /* MapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64CCA98D17780B2900E2A7A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64CCA96217780B2900E2A7A2 /* CARMEATS */;
+			targetProxy = 64CCA98C17780B2900E2A7A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64CCA96F17780B2900E2A7A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64CCA97017780B2900E2A7A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64CCA97817780B2900E2A7A2 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64CCA97917780B2900E2A7A2 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		64CCA97B17780B2900E2A7A2 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64CCA97C17780B2900E2A7A2 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		64CCA99117780B2900E2A7A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64CCA99217780B2900E2A7A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64CCA99617780B2900E2A7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64CCA99717780B2900E2A7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64CCA99917780B2900E2A7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10FC7E8A01F24678B7874120 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CARMEATS/CARMEATS-Prefix.pch";
+				INFOPLIST_FILE = "CARMEATS/CARMEATS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64CCA99A17780B2900E2A7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10FC7E8A01F24678B7874120 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CARMEATS/CARMEATS-Prefix.pch";
+				INFOPLIST_FILE = "CARMEATS/CARMEATS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		64CCA99C17780B2900E2A7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CARMEATS.app/CARMEATS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CARMEATS/CARMEATS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CARMEATSTests/CARMEATSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		64CCA99D17780B2900E2A7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CARMEATS.app/CARMEATS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CARMEATS/CARMEATS-Prefix.pch";
+				INFOPLIST_FILE = "CARMEATSTests/CARMEATSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64CCA95E17780B2900E2A7A2 /* Build configuration list for PBXProject "CARMEATS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CCA99617780B2900E2A7A2 /* Debug */,
+				64CCA99717780B2900E2A7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64CCA99817780B2900E2A7A2 /* Build configuration list for PBXNativeTarget "CARMEATS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CCA99917780B2900E2A7A2 /* Debug */,
+				64CCA99A17780B2900E2A7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64CCA99B17780B2900E2A7A2 /* Build configuration list for PBXNativeTarget "CARMEATSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CCA99C17780B2900E2A7A2 /* Debug */,
+				64CCA99D17780B2900E2A7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64CCA95B17780B2900E2A7A2 /* Project object */;
+}
